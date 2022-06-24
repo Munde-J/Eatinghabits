@@ -1,5 +1,6 @@
-body{
-    background-color: rgb(184, 18, 184);
+
+.container{
+    background-color: #9E5ED1;
 }
 nav{
     display: flex;
@@ -64,14 +65,22 @@ nav{
     margin-top: -10%;
     /* color: purple; */
 }
+.container2{
+    background-color: #EEE1F3;
+    padding-bottom: 4%; 
+}
 .our{
     text-align: center;
     font-size: 20px;
     color: white;
+    background-color: #CDB1EE;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .progs{
     display: flex;
-    margin-left: 10%;
+    
+    /* background-color: #FAFAFA; */
 
 }
 .health p{
@@ -84,7 +93,10 @@ nav{
 }
 .eat{
     width: 56%;
-    text-align: center;
+    text-align: center;   
+}
+.eat p{
+    width: 46%;
 }
 .learn{
     margin-left: 15%;
@@ -93,10 +105,16 @@ nav{
     width: 56%;
     text-align: center;
 }
+.progs{
+    background-color: #CDB1EE;
+    /* margin-left: 10%; */
+}
+.value{
+    background-color: #FAFAFA;
+}
 .image2{
     margin-right: 100%;
-    
-
+    /* margin-bottom: -2%; */
 }
 .help{
     margin-left: 56%;
@@ -139,6 +157,9 @@ nav{
 }
 .get{
     text-align: center;
+    background-color: #F5EBF6;
+    padding-top: 1%;
+    padding-bottom: 2%;
 
 }
 .get span{
@@ -151,18 +172,26 @@ nav{
     background-color: yellow;
 }
 .menu{
-    margin-left: 10%;
-    margin-top: 5%;
+    /* margin-left: 10%; */
+    /* margin-top: 1%; */
+    background-color: #fff;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 .menu h1{
     margin-bottom: 4%;
+    margin-left: 10%;
 }
 .menu p{
     width: 340px;
+    margin-left: 10%;
     margin-bottom: 4%;
 }
+.recipe{
+    margin-left: 10%;
+}
 .onion{
-    margin-left: 40%;
+    margin-left: 60%;
     margin-top: -295px;
     background-color: rgb(249,246,253);
     width: 170px;
@@ -181,6 +210,7 @@ nav{
     margin-bottom: 17%;
     width: 160px;
     text-align: center;
+   
 }
 .onion button{
     margin-top: -12%;
@@ -191,7 +221,7 @@ nav{
     border-radius: 10px;
 }
 .fat{
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: -268px;
     background-color: rgb(249,246,253);
     width: 170px;
@@ -217,7 +247,10 @@ nav{
     margin-top: 1%;
 }
 .testimonial{
-    margin-top: -32%;
+    margin-top: -36%;
+    background-color: #F8F5FF;
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 .image4{
    margin-top: 5%;
@@ -246,7 +279,10 @@ nav{
 .eatly{
     display: flex;
     /* padding-right: 40%; */
-    margin-top: 5%;
+    /* margin-top: 1%; */
+    background-color: #F4E7F9;
+    padding-top: 7%;
+    padding-bottom: 2%;
 }
 .mission{
     margin-left: 10%;
@@ -265,8 +301,9 @@ nav{
     margin-left: 10%;
 }
 .footer{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
+    background-color: #F4E7F9;
 }
 .all{
     margin-right: -30%;
